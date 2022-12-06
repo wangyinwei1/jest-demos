@@ -1,0 +1,34 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/jest-react/node_modules
+/jest-starter/node_modules
+/npm-debug.log*
+/yarn-error.log
+# /yarn.lock
+/package-lock.json
+
+# production
+/dist
+
+# misc
+.DS_Store
+
+# umi
+.env
+.umi
+.umi-production
+
+# vscode
+.vscode
+
+# webstorm
+.idea
+
+.temp
+
+package-lock.json
+.umirc.dev.ts
+.umirc.dev*
+
